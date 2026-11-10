@@ -1,0 +1,28 @@
+{
+ "created_utc": "2026-11-09T01:16:39Z",
+ "note": "Selected before any model was run on this task. Depends on hashes and fixed counts only.",
+ "exam_sha256": "88a70bd736c0fa04df75f4e022e2e0766c8dc28f7afbcf2235bcea98b3e91f96",
+ "exam_items": 19200,
+ "teach_pool_a_sha256": "2e6ba3eac5b272fb45890073fadc99b1358d43bd9e3a35a7148f42a3d46e9797",
+ "exam_pool_a_sha256": "9fa572318332a8bf19fd3f7785abc46c669a87330ea24de0e02c82b69610bc28",
+ "raw_sha256": {
+  "A_test-00000-of-00001.parquet": "1a4b0512ecb5370f0992d29d0f9c07351e6de13f0d7ea33bb18cecb984780247",
+  "A_train-00000-of-00001.parquet": "9cb1a88c339ab84ddbc35ccdde4f6bb713300f5585881f9e02b8db1e0dfdbece",
+  "B_test-00000-of-00001.parquet": "c89a6bffa838edb0f2fc6686bf35da4930944519ac97308b0b6e32298594b5b1",
+  "B_train-00000-of-00001.parquet": "93169003eaa23d0499dbbe26794514216af22bc1bbee71b7b1e1f23edca5ce79",
+  "B_validation-00000-of-00001.parquet": "3de64be0dddd0dc8a6a1a1368533cc1efe8a9ec290f87feaa064e4e78a5d22b8"
+ },
+ "rules": {
+  "salt": "ten-percent-v2-exam-2026-11-09",
+  "max_chars": 800,
+  "per_kind_a": 300,
+  "neg_a": 1500,
+  "pos_b": 1000,
+  "neg_b": 200
+ },
+ "code_sha256": {
+  "split_a.py": "d068ffbffd29c7f940d3c30c74ea7f91a3d6f0cb1e2ef84df1e7b88554397943",
+  "lock.py": "a023a8d702a3d5e1efcdb55f66efcf077039cee8f2233bc39796ee65c1692926",
+  "tasklib.py": "e3562f3e9c74722be82326e1e33a38c89300e886a8b75bb72700ad6720c8c896"
+ }
+}

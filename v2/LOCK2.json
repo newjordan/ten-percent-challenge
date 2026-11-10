@@ -1,0 +1,23 @@
+{
+ "created_utc": "2026-11-09T14:59:22Z",
+ "exam_sha256": "b7cd457a2b1d4d5f144768ed7075af0d27fd43e5c68fef54edf43d9e2efe5ba6",
+ "exam_items": 13200,
+ "teach2_sha256": "7062c4cb2a2ea391fac423d804f96e8356ca2673b31b1d82e0a11376d591ddca",
+ "raw_c_sha256": {
+  "C_English_test-00000-of-00001.parquet": "c02b06d3c5b7c375525136d6f74acc52ab8fc07fa863d0aa50734910ec0ef2ad",
+  "C_English_train-00000-of-00001.parquet": "2858af81ec59d8528f81059facb099ac33e6b47caf2501da3eac113bccfee9c7"
+ },
+ "rules": {
+  "salt": "ten-percent-v2-exam2-2026-11-09",
+  "per_kind": 300,
+  "neg_a": 1500,
+  "pos_b": 1000,
+  "neg_b": 200,
+  "pos_c": 1000,
+  "neg_c": 200
+ },
+ "code_sha256": {
+  "lock2.py": "95a4593b173fe8c72bcda790ead48deb99066ab28a9aeb21b9234b5a423ed43b",
+  "tasklib.py": "e3562f3e9c74722be82326e1e33a38c89300e886a8b75bb72700ad6720c8c896"
+ }
+}
